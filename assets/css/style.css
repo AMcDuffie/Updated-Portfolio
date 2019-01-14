@@ -1,0 +1,326 @@
+body {
+    background-image: url("../images/background.jpg");
+    font-style: Georgia,"Times New Roman",Times,serif;
+    color: #333333;
+    margin: 0 auto;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav-item {
+    font-size: 14pt;
+}
+#faceimg {
+    background-image: url("../images/eyeslips.jpg");
+    width: 400px;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 7%;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    box-shadow: 0 8px 16px 0 rgb(5, 167, 153), 0 12px 40px 0 rgba(5, 167, 153);
+    z-index: -1;
+}
+
+p {
+    font-size: 12pt;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-variant-caps: all-petite-caps;
+    width: 250px;
+    height: 50px;
+    position: relative;
+    float: left;
+    left: 7%;
+    top: 10%;
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-variant-caps: all-petite-caps;
+    margin: 20px 20px 20px 0px;
+    position: relative;
+    float: left;
+    left: 8%;
+}
+
+#blocktext {
+    width: 700px;
+    height: 100%;
+}
+
+.space {
+    margin: 0px 10px 10px 10px;
+}
+
+.textbox {
+    margin: 0px 0px 20px 0px;
+    padding: 20px;
+    background-color: #ffffff;
+    width: 90%;
+    float: left;
+    position: relative;
+    left: 7%;
+}
+
+.bottomborder {
+    border-bottom: solid 1pt #cccccc;
+    height: 60px;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: -280%;
+    width: 100%;
+    background-color:#666666;
+    color: white;
+    border-top: solid 4pt #4aaaa5;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer2 {
+    position: relative;
+    left: 0;
+    bottom: -80%;
+    width: 100%;
+    background-color:#666666;
+    color: white;
+    border-top: solid 4pt #4aaaa5;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer3 {
+    position: relative;
+    left: 0;
+    bottom: -500%;
+    width: 100%;
+    background-color:#666666;
+    color: white;
+    border-top: solid 4pt #4aaaa5;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.textblock {
+    color: white;
+    padding: 5px;
+    font-size: 12pt;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.bioimage {
+    width: 200px;
+    height: auto;
+    float: left;
+    margin: 0px 20px 20px 20px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.imagetextblock {
+    position: relative;
+    bottom: 70px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+}
+
+.imagetextblock > a:link, a:visited, a:active {
+    color: #ffffff;
+}
+
+.imageblock {
+    width: 100%;
+    height: auto;
+}
+
+.imageblock > img {
+    width: 100%;
+    height: auto;
+}
+
+#fname {
+    width: 50%;
+    text-overflow: visible;
+    font-size: 12pt;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    margin-bottom: 5px;
+}
+
+#lname {
+    width: 50%;
+    text-overflow: visible;
+    font-size: 12pt;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    margin-bottom: 5px;
+}
+
+#message {
+    width: 80%;
+    height: 100%;
+    text-overflow: visible;
+    font-size: 12pt;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    margin-bottom: 5px;
+}
+
+.formtext {
+    font-size: 12pt;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 640px) {
+
+    #faceimg {
+        background-image: none;
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        left: 50px;
+        top: 500px;
+        background-repeat: no-repeat;
+        background-color: #ffffff;
+        z-index: -1;
+    }
+
+    .textbox {
+        margin: 0 auto;
+        padding: 10px;
+        width: 85%;
+        float: left;
+        position: relative;
+        left: 7%;
+        top: 375px;
+        background-color: rgb(2, 74, 92);
+    }
+
+    p {
+        font-size: 12pt;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        color: #e2f7f8;
+    }
+
+    #blocktext {
+        width: 100px;
+        height: 100%;
+    }
+    .space {
+        margin: 20px 10px 10px 10px;
+    }
+
+    .formtext {
+        color: #e2f7f8;
+    }
+
+    .footer {
+        position: relative;
+        left: 0;
+        top: 500%;
+        width: 100%;
+        background-color:#666666;
+        color: white;
+        border-top: solid 4pt #4aaaa5;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .footer2 {
+        position: relative;
+        left: 0;
+        top: 500%;
+        width: 100%;
+        background-color:#666666;
+        color: white;
+        border-top: solid 4pt #4aaaa5;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .footer3 {
+        position: relative;
+        left: 0;
+        bottom: -540%;
+        width: 100%;
+        background-color:#666666;
+        color: white;
+        border-top: solid 4pt #4aaaa5;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .textbox {
+        margin: 0 auto;
+        padding: 10px;
+        width: 90%;
+        float: left;
+        position: relative;
+        left: 7%;
+        background-color: rgb(2, 74, 92);
+    }
+
+    p {
+        font-size: 12pt;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        color: #e2f7f8;
+    }
+
+    .space {
+        margin: 20px 10px 10px 10px;
+    }
+
+    .formtext {
+        color: #e2f7f8;
+    }
+}
+
+@media screen and (min-width: 980px) {
+    .textbox {
+        margin: 0px 0px 20px 0px;
+        padding: 20px;
+        width: 100%;
+        float: left;
+        position: relative;
+        left: 7%;
+        background-color: rgb(2, 74, 92);
+    }
+    
+    p {
+        font-size: 12pt;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        color: #e2f7f8;
+    }
+        
+    .space {
+         margin: 20px 10px 10px 10px;
+    }
+
+        
+     .formtext {
+         color: #e2f7f8;
+    }
+}
